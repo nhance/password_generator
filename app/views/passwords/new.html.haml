@@ -1,0 +1,8 @@
+%h1 THIS IS A PASSWORD GNERATOR
+
+=form_tag passwords_path do
+  %fieldset
+    %label{for: 'number_of_passwords'} Number of passwords
+    =text_field_tag :number_of_passwords
+
+    =submit_tag "Generate"

@@ -8,6 +8,8 @@ gem 'rails', '3.1.1'
 gem "mongoid", "~> 2.3"
 gem "bson_ext", "~> 1.4"
 
+gem 'haml'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -46,4 +48,5 @@ group :cucumber do
   gem 'cucumber-rails'
   gem 'capybara'
   gem 'database_cleaner'
+  gem 'launchy'
 end
